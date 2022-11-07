@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(100deg, rgba(11, 184, 228, 0.945), rgb(25, 238, 107));
+        
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    display: block;
+    margin: 10px;
+    border-color: white;
+    border-radius: 8px;  
+    left: 10px;
+}
+#senha{
+    position: relative;
+    top: 30px;
+    height: 20px;
+}
+#login{
+    position: relative;
+    top: 20px;
+    height: 20px;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 220px;
+    height: 300px;
+    border-radius: 8px;
+    position: relative;
+    left: 40%;
+    top: 100px;
+}
+button{
+    background-image: linear-gradient(100deg, rgba(11, 184, 228, 0.945), rgb(25, 238, 107));
+    border-color: black;
+    position: relative;
+    left: 73px;
+    top: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+}
+button:hover{
+    transform: scale(1.1);
+}
